@@ -26,3 +26,12 @@ window.location.href="chapter3.html";
 
 }
 
+function saveData(id){
+let value=document.getElementById(id).value;
+localStorage.setItem(id,value);
+}
+
+function next(page){
+window.location.href=page;
+  }
+
