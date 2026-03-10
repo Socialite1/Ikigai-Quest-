@@ -1,1 +1,19 @@
+<div class="progress">Chapter 3 of 10</div>
 
+<h2>Meditation</h2>
+
+<label>What positive emotions will you feel achieving your goal?</label>
+<textarea id="emotions"></textarea>
+
+<label>What life experience proves you can achieve it?</label>
+<textarea id="confirmation"></textarea>
+
+<label>Confidence level (1–10)</label>
+<input id="trust">
+
+<button onclick="
+saveData('emotions');
+saveData('confirmation');
+saveData('trust');
+next('chapter4.html');
+">Next</button>
