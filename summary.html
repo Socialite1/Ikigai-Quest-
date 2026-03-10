@@ -1,1 +1,17 @@
+<h2>Your Quest Blueprint</h2>
 
+<p><b>Goal:</b> <span id="goal"></span></p>
+<p><b>Benefits:</b> <span id="benefits"></span></p>
+<p><b>Obstacles:</b> <span id="obstacles"></span></p>
+<p><b>Solutions:</b> <span id="solutions"></span></p>
+<p><b>Deadline:</b> <span id="deadline"></span></p>
+
+<script>
+
+document.getElementById("goal").innerText=localStorage.getItem("goal");
+document.getElementById("benefits").innerText=localStorage.getItem("benefits");
+document.getElementById("obstacles").innerText=localStorage.getItem("obstacles");
+document.getElementById("solutions").innerText=localStorage.getItem("solutions");
+document.getElementById("deadline").innerText=localStorage.getItem("deadline");
+
+</script>
